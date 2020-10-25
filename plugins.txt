@@ -113,3 +113,10 @@ workflow-step-api
 workflow-support
 ws-cleanup
 kubernetes
+windows-azure-storage
+azure-ad
+azure-commons
+azure-credentials
+azure-container-registry-tasks
+azure-keyvault
+nexus-jenkins-plugin
