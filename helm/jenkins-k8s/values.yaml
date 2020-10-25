@@ -7,16 +7,16 @@ initContainerImage: "alpine:3.10.2"
 replicaCount: 1
 imagePullSecrets:
 image:
-  repository: anuphnu/jenkins
+  repository: sedatkan/jenkins
   tag: v3
   pullPolicy: Always
 
   resources:
     requests:
-      cpu: 100m
-      memory: 100Mi
+      cpu: 1000m
+      memory: 4Gi
     limits:
-      memory: 100Mi
+      memory: 4Gi
 
 master:
   adminUser: "admin"
@@ -39,8 +39,8 @@ service:
 javaOpts: "-Xms512m -Xmx1g"
 resources:
   requests:
-    cpu: 100m
-    memory: 512Mi
+    cpu: 1000m
+    memory: 1Gi
   limits:
     memory: 1Gi
 storage:
