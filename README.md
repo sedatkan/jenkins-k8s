@@ -13,17 +13,17 @@ You can build the image yourself
 ```bash
 
 # Build the image
-$ docker build -t anuphnu/jenkins:v0.0.1 .
+$ docker build -t sedatkan/jenkins:v0.0.1 .
 
 # Push the image
-$ docker push anuphnu/jenkins:v0.0.1
+$ docker push sedatkan/jenkins:v0.0.1
 ```
 
 ### Deploy Jenkins helm chart to Kubernetes
 ```bash
-# Init helm and tiller on your cluster
+
 $ helm init
-$ kubectl apply -f rbac-config.yaml
+
 
 # Deploy the Jenkins helm chart
 # (same command for install and upgrade)

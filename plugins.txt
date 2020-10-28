@@ -120,5 +120,4 @@ azure-credentials
 azure-container-registry-tasks
 azure-keyvault
 nexus-jenkins-plugin
-docker-plugin
-docker-workflow
+sonar

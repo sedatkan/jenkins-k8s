@@ -23,10 +23,7 @@ master:
   adminPassword: "password"
 
 
-# ## Set the admin user
-# adminUser: YWRtaW4
-# ## Make sure to replace the default password
-# adminPassword: cGFzc3dvcmQ
+
 service:
   name: jenkins-k8s
   type: LoadBalancer
